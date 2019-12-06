@@ -7,3 +7,6 @@ My theme for Firefox and Chrome which uses "Yaru Dark" colorscheme.
 
 
 # Screenshot
+<p align="center">
+  <img height="500px" src="/scrot.png" alt="Yaru Dark Theme">
+</p>
