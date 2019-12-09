@@ -1,14 +1,14 @@
+#!/usr/bin/env python3
 from zipfile import ZipFile
 import os
 from shutil import rmtree
-from pathlib import Path
+
 rmtree("Builds", ignore_errors=True)
 os.makedirs("Builds")
-folder = "Yaru Dark Theme"
 
-with ZipFile(f"Builds/firefox.zip", "w") as zf:
-	for file in Path(folder).rglob("*"):
-		zf.write(f"{file}", os.path.basename(file))
+file = "manifest.json"
+with ZipFile("Builds/firefox.zip", "w") as zf:
+	zf.write(f"{file}", os.path.basename(file))
 
 '''
 with ZipFile("Builds/chrome.zip", "w") as zf:
