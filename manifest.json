@@ -2,7 +2,7 @@
     "name": "Yaru Dark",
     "author": "Utkarsh Verma",
     "manifest_version": 2,
-    "version": "2019.12.9",
+    "version": "2019.12.10",
     "theme": {
         "colors": {
             "frame": "rgba(0, 0, 0, 1)",
